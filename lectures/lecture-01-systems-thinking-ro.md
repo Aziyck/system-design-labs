@@ -762,6 +762,6 @@ sau nevoia de a justifica fiecare decizie cu dovezi din sistemul curent.
 
 ## Acțiunea următoare
 
-Citește [documentul de predare al proiectului de curs](course-project.md). Trimite
+Citește [documentul de predare al proiectului de curs](../course-project/README-ro.md). Trimite
 două propuneri de proiect cu domeniu limitat înainte de primul Laborator. Nu
 proiecta încă arhitectura.

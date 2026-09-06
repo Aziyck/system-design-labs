@@ -733,5 +733,5 @@ need to justify each decision with the current system's evidence.
 
 ## Next action
 
-Read the [course-project handoff](course-project.md). Submit two bounded
+Read the [course-project handoff](../course-project/README.md). Submit two bounded
 project candidates before the first Lab. Do not design the architecture yet.
