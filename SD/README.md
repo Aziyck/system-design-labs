@@ -1,6 +1,6 @@
 # System Design Labs
 
-**Author:** Borș Alexandru
+**Author:** Borș Alexandru INFA241
 
 This repository contains the lab assignments for the [System Design course](https://github.com/metreniuk/system-design-labs).
 
