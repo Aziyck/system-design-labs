@@ -44,7 +44,7 @@ Throughout: an unavailable or error result is **not** an acceptable completed re
 | Watchlist | ≤1s   | ≤2s | 5s                                  | p50 allows for the market-open Watchlist burst                                                                                              |
 | Search    | ≤1s   | ≤2s | 5s                                  | General 2 s bar from the client brief                                                                                                       |
 | Overview  | ≤1s   | ≤2s | 5s                                  | p50 allows for the market-open Overview burst                                                                                               |
-|           |       |     |                                     |                                                                                                                                             |
+
 
 Evidence note: an informal check of Yahoo Finance showed a stock graph taking roughly 7–8 seconds to load (observed September 2026). This is not a standard to match — it is evidence that a heavy chart read plausibly lands in the multi-second range, which justifies History carrying a longer tail than the other reads.
 
