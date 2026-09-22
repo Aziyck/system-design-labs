@@ -10,7 +10,7 @@ Each lab has its own folder containing the corresponding solution in `SOLUTION.m
 The following repositories are from my colleagues from the course, collected here for easier access and review:
 
 - [Belenchi Iulian](https://github.com/Fl0y/system-design-labs)
-- [Borș Alexandru](https://github.com/Aziyck/Proiectarea-sistemelor-informatice)
+- [Borș Alexandru](https://github.com/Aziyck/system-design-labs)
 - [Cristea Alexandru](https://github.com/AlexiosChristus/CristeaAlexandru-iNFA241-Laboratoare)
 - Didilica Daniela
 - [Duca Alexandr](https://github.com/DucaAleXD/Proiectarea-sistemelor-informatice)
