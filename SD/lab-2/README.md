@@ -37,13 +37,14 @@ Throughout: an unavailable or error result is **not** an acceptable completed re
 
 > During the market-open window, with total Dashboard load up to 1,030 RPS, read latency must meet:
 
-| Read      | p50   | p95  | Cutoff (shown as error/unavailable) | Reasoning                                                                                                                                   |
-| --------- | ----- | ---- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
-| Filter    | ≤0.2s | ≤ 2s | 2.5s                                | Filtering is light work; the 2 s p95 matches the client brief's general bar                                                                 |
-| History   | ≤1.5s | ≤ 8s | 10s                                 | Most reads are short ranges (1D, 1W); long ranges (1Y, 5Y) carry far more points, so the expensive case belongs in the tail, not the median |
-| Watchlist | ≤1s   | ≤ 2s | 5s                                  | p50 allows for the market-open Watchlist burst                                                                                              |
-| Search    | ≤1s   | ≤ 2s | 5s                                  | General 2 s bar from the client brief                                                                                                       |
-| Overview  | ≤1s   | ≤ 2s | 5s                                  | p50 allows for the market-open Overview burst                                                                                               |
+| Read      | p50   | p95 | Cutoff (shown as error/unavailable) | Reasoning                                                                                                                                   |
+| --------- | ----- | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Filter    | ≤0.2s | ≤2s | 2.5s                                | Filtering is light work; the 2 s p95 matches the client brief's general bar                                                                 |
+| History   | ≤1.5s | ≤8s | 10s                                 | Most reads are short ranges (1D, 1W); long ranges (1Y, 5Y) carry far more points, so the expensive case belongs in the tail, not the median |
+| Watchlist | ≤1s   | ≤2s | 5s                                  | p50 allows for the market-open Watchlist burst                                                                                              |
+| Search    | ≤1s   | ≤2s | 5s                                  | General 2 s bar from the client brief                                                                                                       |
+| Overview  | ≤1s   | ≤2s | 5s                                  | p50 allows for the market-open Overview burst                                                                                               |
+|           |       |     |                                     |                                                                                                                                             |
 
 Evidence note: an informal check of Yahoo Finance showed a stock graph taking roughly 7–8 seconds to load (observed September 2026). This is not a standard to match — it is evidence that a heavy chart read plausibly lands in the multi-second range, which justifies History carrying a longer tail than the other reads.
 
