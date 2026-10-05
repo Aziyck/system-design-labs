@@ -1,4 +1,4 @@
-# Lab 3: Draw the Dashboard Boundary — Working Draft
+# Lab 3: Draw the Dashboard Boundary
 
 > Working order: Context → Container → Component → Sequences A, B, C. The sequences test the structure; if one exposes a gap, the Container or Component view gets revised.
 
