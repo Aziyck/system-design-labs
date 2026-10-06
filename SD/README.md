@@ -14,7 +14,7 @@ The following repositories are from my colleagues from the course, collected her
 - [Cristea Alexandru](https://github.com/AlexiosChristus/CristeaAlexandru-iNFA241-Laboratoare)
 - Didilica Daniela
 - [Duca Alexandr](https://github.com/DucaAleXD/Proiectarea-sistemelor-informatice)
-- Guranda Vadim
+- [Guranda Vadim](https://github.com/Sharget/Proiectarea_Sistemelor_Informatice)
 - [Gurău Maxim](https://github.com/Mahim0606/Proiectarea-sistemelor-informatice)
 - [Mancoș Alexandru](https://github.com/AlexandruMn/system-design-labs)
 - Marjina Lilian
