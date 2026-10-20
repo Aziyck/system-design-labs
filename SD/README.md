@@ -4,7 +4,7 @@
 
 This repository contains the lab assignments for the [System Design course](https://github.com/metreniuk/system-design-labs).
 
-Each lab has its own folder containing the corresponding solution in `SOLUTION.md`.
+Each lab has its own folder containing the corresponding solution in `README.md`.
 
 ---
 The following repositories are from my colleagues from the course, collected here for easier access and review:
